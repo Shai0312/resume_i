@@ -1,5 +1,6 @@
+"use strict";
 function toggleSection(sectionId) {
-    var section = document.getElementById(sectionId);
+    const section = document.getElementById(sectionId);
     if (section) {
         // Null check and toggle logic
         if (section.style.display === "none" || !section.style.display) {
@@ -10,6 +11,6 @@ function toggleSection(sectionId) {
         }
     }
     else {
-        console.error("Element with ID \"".concat(sectionId, "\" not found."));
+        console.error(`Element with ID "${sectionId}" not found.`);
     }
 }
