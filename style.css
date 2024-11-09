@@ -185,10 +185,98 @@ button {
     
 }
 @media (min-width:412px) and (max-width:599px){
+    .about p {
+        word-wrap: break-word;
+    }
+    .content{
+        font-size: x-small;
+        margin-top: 1.9rem; 
+    }
     
+    .leftchild {
+        
+        margin-left: -6rem;
+    }
+    #bold {
+        font-size: small;
+        font-style: italic;
+    }
+    /* button {
+        height:2rem ;
+        text-align: center;
+        width: 5rem;
+        font-size: small;
+        padding: 0;
+        
+    }
+    #btn {
+        gap:0.5rem;
+        margin-left: 1.5rem
+        ;margin-top:1rem ;
+    } */
+    .contact h3 {
+         
+        font-size: small; 
+    }
+    .contact p,.Experience p ,.Education p{
+        font-size: small;
+    line-height: 1rem;
+    }
+    .about p, ul{
+        font-size: small;
+        line-height: 1rem;
+    }
+    
+    #skill {
+        font-size: large;
+        width: 7rem;
+        height: 2.1rem;
+        text-align: center;
+    }
+    .contact h1,.about h1,.Education h1,.Experience h1 {
+        font-size: large;
+        width: 7rem;
+        height: 2.1rem;
+        text-align: center;
+    }
+    
+    header img{
+        height: 9rem;
+        border: 3px solid rgb(160, 158, 158);
+        margin-right: 2.3rem;
+        margin-left: -0.5rem;
+        
+    }
+    .resumediv {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0; 
+        margin-right: 0;
+        
+    
+    }
+    header{
+        height:7rem ;
+        width:full;
+        margin-left: 1rem;
+        }
     .hide-on-small {
         display: none;
     }
+    .leftchild, .rightchild {
+        width: 100%; 
+    }
+    
+    .about,.Education{
+        margin-top: 3rem;
+    }
+    .rightchild{
+        margin-left: 5rem;
+    }
+
+    
     
     
 }
@@ -256,6 +344,9 @@ margin-left: -10.2rem;
         margin: 0; 
         
     }
+    .hide-on-small {
+        display: none;
+    }
     #btn{
         gap:1rem;
         margin-left: 4rem;
@@ -289,9 +380,7 @@ margin-left: -10.2rem;
             margin: 0;
             
         }
-        .hide-on-small {
-            display: none;
-        }
+    
         
 }
 
@@ -363,5 +452,6 @@ header{
     width: 95%;
     margin-left: 1.5rem;
 }
+ 
 
  }
